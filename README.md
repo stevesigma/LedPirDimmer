@@ -1,6 +1,7 @@
 # LedPirDimmer
 Arduino led dimmer with pir sensors
-/*
+
+<code>
  when pir activated in_time ago:
     if current_phase is OFF
      raise PWM_YVAL
@@ -18,4 +19,4 @@ Arduino led dimmer with pir sensors
    decrease PWM_YVAL
  else
    hold LOW
-*/
+</code>
